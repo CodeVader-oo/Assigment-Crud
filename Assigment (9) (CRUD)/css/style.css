@@ -1,0 +1,84 @@
+body {
+  background-color: #f7ecde;
+  font-family: "Poppins", "Segoe UI", sans-serif;
+}
+
+h1 {
+  color: #352e28;
+  font-size: 3rem;
+}
+.container {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.form-section {
+  background: transparent;            
+  border-top: 2px dashed #352e28;     
+  border-bottom: 2px dashed #352e28;   
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  box-shadow: none !important;         
+  padding: 25px 40px;
+  margin: 0;
+  width: 100%;
+}
+
+
+
+
+
+.btn-danger {
+  background-color: #d1512d !important;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #bb4120 !important;
+}
+
+.btn-success {
+  background-color: #9eb23b !important;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #8a9e23 !important;
+}
+
+.table-dark {
+  background-color: #352e28 !important;
+}
+
+.table td, .table th {
+  vertical-align: middle;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #fffbe7;
+}
+.gradient-title {
+  font-weight: 700;
+  text-transform: capitalize;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #2ecc71, #808000);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+
+.icon-green {
+  margin-right: 8px;
+  font-size: 1.4rem;
+  color: #2ecc71; 
+}
+
+.icon-other {
+  margin-right: 8px;
+  font-size: 1.4rem;
+  color: #808000;
+}
